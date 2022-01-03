@@ -1,0 +1,9 @@
+#!/bin/bash
+
+a=0
+
+while [ "$a" -le 1000000 ]
+do
+	./a.out $a
+	a=`expr $a + 20000`
+done
